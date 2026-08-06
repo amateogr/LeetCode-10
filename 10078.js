@@ -1,0 +1,1 @@
+const subsets = (nums) => nums.reduce((acc, num) => acc.concat(acc.map(el => [...el, num])), [[]]);
