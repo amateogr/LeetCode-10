@@ -1,5 +1,3 @@
-package leetcode
-
 import "math/bits"
 
 func hammingWeight(n int) int {
